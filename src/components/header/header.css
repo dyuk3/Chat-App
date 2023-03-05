@@ -1,0 +1,40 @@
+.chatApp__header {
+  width: 100%;
+  top: 0;
+  position: fixed;
+  z-index: 100;
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid lightslategray;
+  padding: 1rem 3rem;
+}
+
+.chatApp__header-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.chatApp__header-content p {
+  font-weight: 500;
+  color: gray;
+}
+
+.chatApp__header-people {
+  display: flex;
+  color: lightslategray;
+}
+
+.chatApp__header-people__count {
+  margin-right: 1rem;
+}
+.chatApp__header-people__count span {
+  padding: 0 0.2rem;
+}
+
+.chatApp__header-people__count span:first-child {
+  border-right: 1px solid lightslategray;
+}

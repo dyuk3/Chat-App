@@ -1,0 +1,24 @@
+.chatApp__sendMsgForm-wrapper {
+  width: 100%;
+  /* padding: 1rem 3rem; */
+  position: fixed;
+  bottom: 0px;
+  /* margin: auto; */
+  background: white;
+  margin-bottom: 0;
+}
+
+.chatApp__sendMSgForm {
+  width: 100%;
+  /* display: flex;
+  justify-content: flex-start;
+  align-items: center; */
+}
+
+.react-emoji {
+  /* padding: 0.5rem 2rem; */
+  width: 100%;
+  border-radius: 20px;
+  border: 1px solid lightslategray;
+  /* outline: none; */
+}
